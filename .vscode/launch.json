@@ -8,7 +8,7 @@
             "type": "python",
             "request": "launch",
             "pythonPath": "C:/Users/wuzhuguo/AppData/Local/Continuum/anaconda3/envs/werk/python.exe",
-            "program": "${file}",
+            "program": "C:/Works/odoo_src/werkzeug/start_werkzeug_app.py",//${file}
             "cwd": "${workspaceRoot}",
             "env": {}
         }
