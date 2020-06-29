@@ -3,6 +3,7 @@ from werkzeug.read_codes.ReadSesseion import start_session_app
 from werkzeug.read_codes.ReadServing import start_server
 from werkzeug.read_codes.ReadRouting import start_app_with_routing
 from werkzeug.read_codes.ReadRule import start_rule
+from werkzeug.read_codes.ReadCacheProperty import start_cache
 
 if __name__ == '__main__':
     #start_session_app()
@@ -13,4 +14,8 @@ if __name__ == '__main__':
     #测试routing
     #start_app_with_routing()
 
-    start_rule()
+    #测试路由规则
+    #start_rule()
+
+    #测试property缓存
+    start_cache()
