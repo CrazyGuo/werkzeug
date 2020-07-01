@@ -5,6 +5,7 @@ from werkzeug.read_codes.ReadRouting import start_app_with_routing
 from werkzeug.read_codes.ReadRule import start_rule
 from werkzeug.read_codes.ReadCacheProperty import start_cache
 from werkzeug.read_codes.ReadBaseRequest import start_base_request
+from werkzeug.read_codes.ReadBaseRequestFormFiles import start_base_request_form_file
 
 if __name__ == '__main__':
     #start_session_app()
@@ -22,4 +23,7 @@ if __name__ == '__main__':
     #start_cache()
 
     #测试BaseRequest
-    start_base_request()
+    #start_base_request()
+
+    #测试form表单中有文件
+    start_base_request_form_file()
