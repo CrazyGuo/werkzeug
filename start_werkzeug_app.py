@@ -6,6 +6,7 @@ from werkzeug.read_codes.ReadRule import start_rule
 from werkzeug.read_codes.ReadCacheProperty import start_cache
 from werkzeug.read_codes.ReadBaseRequest import start_base_request
 from werkzeug.read_codes.ReadBaseRequestFormFiles import start_base_request_form_file
+from werkzeug.read_codes.ReadAcceptMixin import start_accept
 
 if __name__ == '__main__':
     #start_session_app()
@@ -26,4 +27,7 @@ if __name__ == '__main__':
     #start_base_request()
 
     #测试form表单中有文件
-    start_base_request_form_file()
+    #start_base_request_form_file()
+
+    #测试接收编码等
+    start_accept()
