@@ -8,6 +8,7 @@ from werkzeug.read_codes.ReadBaseRequest import start_base_request
 from werkzeug.read_codes.ReadBaseRequestFormFiles import start_base_request_form_file
 from werkzeug.read_codes.ReadAcceptMixin import start_accept
 from werkzeug.read_codes.ReadRequestEtagMixin import start_request_etag
+from werkzeug.read_codes.ReadUserAgentMixin import start_request_user_agent
 
 if __name__ == '__main__':
     #start_session_app()
@@ -34,4 +35,8 @@ if __name__ == '__main__':
     #start_accept()
 
     #测试Request ETag
-    start_request_etag()
+    #start_request_etag()
+
+    #测试User Agent
+    start_request_user_agent()
+

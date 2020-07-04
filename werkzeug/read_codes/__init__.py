@@ -7,3 +7,4 @@ from . import ReadBaseRequest
 from . import ReadBaseRequestFormFiles
 from . import ReadAcceptMixin
 from . import ReadRequestEtagMixin
+from . import ReadUserAgentMixin
