@@ -8,3 +8,4 @@ from . import ReadBaseRequestFormFiles
 from . import ReadAcceptMixin
 from . import ReadRequestEtagMixin
 from . import ReadUserAgentMixin
+from . import ReadAuthorizationMixin
