@@ -9,3 +9,4 @@ from . import ReadAcceptMixin
 from . import ReadRequestEtagMixin
 from . import ReadUserAgentMixin
 from . import ReadAuthorizationMixin
+from . import ReadCommonRequestDescriptorsMixin
