@@ -11,6 +11,7 @@ from werkzeug.read_codes.ReadRequestEtagMixin import start_request_etag
 from werkzeug.read_codes.ReadUserAgentMixin import start_request_user_agent
 from werkzeug.read_codes.ReadAuthorizationMixin import start_request_authorization
 from werkzeug.read_codes.ReadCommonRequestDescriptorsMixin import start_common_request_descriptors_mixin
+from werkzeug.read_codes.ReadBaseRequestFormJson import start_base_request_form_json
 
 if __name__ == '__main__':
     #start_session_app()
@@ -46,5 +47,8 @@ if __name__ == '__main__':
     #start_request_authorization()  
 
     #测试CommonRequestDescriptor
-    start_common_request_descriptors_mixin() 
+    #start_common_request_descriptors_mixin() 
+
+    #测试Form表单与json数据
+    start_base_request_form_json()
 
